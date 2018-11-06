@@ -1,0 +1,33 @@
+.StatusBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 54px;
+  padding: 8px 16px;
+}
+
+.StatusBar div:last-child:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Filter {
+  display: flex;
+}
+
+.Filter div {
+  box-sizing: border-box;
+  padding: 6px 8px;
+  margin: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.Filter div:hover {
+  border: 1px solid orange;
+}
+
+.Filter div.ActiveTab {
+  border: 1px solid orange;
+}

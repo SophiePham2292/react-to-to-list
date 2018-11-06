@@ -1,0 +1,30 @@
+.ListHeader {
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  color: #63c2ca;
+}
+
+.Date {
+  font-size: 42px;
+  font-weight: bold;
+  margin-right: 16px;
+}
+
+.MonthDay {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.CTAButton {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #777;
+  border-radius: 50%;
+  border: 2px solid #63c2ca;
+  line-height: 36px;
+  text-align: center;
+  cursor: pointer;
+}

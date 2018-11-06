@@ -1,0 +1,6 @@
+.App {
+  background-image: url("../assets/app-bg.jpg");
+  box-sizing: border-box;
+  max-width: 550px;
+  padding: 24px;
+}

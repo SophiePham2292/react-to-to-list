@@ -1,0 +1,6 @@
+.ToDoList {
+  background: white;
+  position: relative;
+  box-shadow: 0 5px 10px #63c2ca;
+  overflow: scroll;
+}
